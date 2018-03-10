@@ -22,8 +22,8 @@
 	::having::HAVING
 	/*Personal Preferences, my commonly used ones*/
 	::notdeleted::DateSoftDeleted IS NULL
-	::softdelete::SET DateSoftDeleted = dbo.GETESTDATE(), DeletedBy_Id = 7 WHERE
+	::softdelete::SET DateSoftDeleted = GETDATE(), DeletedBy_Id = 1 WHERE
 	::undelete::SET DateSoftDeleted = NULL, DeletedBy_Id = NULL WHERE
-	::modify::SET DateUpdated = dbo.GETESTDATE(), ModifiedBy_Id = 7,
+	::modify::SET DateUpdated = GETDATE(), ModifiedBy_Id = 1,
 	::username::CONCAT(u.FirstName, ' ', u.LastName)
 }
