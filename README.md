@@ -5,6 +5,8 @@ This AHK scipt is for the lazy, who want don't want to hold the shift key, or do
 
 The short scipt includes thing I find personally useful, such as '8' => '*' because I use the shift key so infrequently, I fail to even type 'SELECT *'.
 
+Another example would be 'update' => '--UPDATE' because let's be honest, UPDATE statements are dangerous, comment those out until you're ready.
+
 Additionally, you can make your own keywords, such as I have. Or if you have that stupid long table name you're tired of typing everytime, you can make your own keyword.
 
 Such as:
